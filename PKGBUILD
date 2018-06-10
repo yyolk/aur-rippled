@@ -19,7 +19,7 @@ build() {
 }
 
 check() {
-	rippled --unittest
+	"$srcdir/rippled" --unittest
 }
 
 package() {
